@@ -1,0 +1,401 @@
+/* HEADER TEXT * importing fonts in my file*/
+
+@font-face {
+  font-family: 'Gotham'; src: url('../fonts/Gotham Medium Regular.ttf');
+}
+
+@import url("https://fonts.googleapis.com/css?family=Muli:300,400");
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  position: absolute;
+  right: 1em;
+  top: 50%;
+  transform:
+  translateY(-50%);
+}
+
+nav li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 2em;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav a{
+    color: #222;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.logo {
+  width: 10em;
+  float: left;
+}
+
+.tagline{
+    background: url("../images/hero-coffee-roast.jpg");
+    background-size:cover;
+    background-position: center 5%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 14em 0 8em;
+}
+
+.tagline-brewing{
+    background: url("../images/hero-coffee-roast.jpg");
+    background-size:cover;
+    background-position: center 5%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 14em 2em 8em;
+}
+
+.tagline-brewing p{
+     display: block;
+     border: 0;
+     padding: 1em 0;
+     border-top: 1px solid #eee;
+     border-bottom: 1px solid #fff;
+     display: block;
+}
+
+header {
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 2;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+}
+
+section {
+  padding: 8em 0;
+}
+
+body {
+  background-size: cover;
+  color: #fff;
+  font-family: 'Mulis', sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 1.2;
+  background: #fefefe;
+}
+
+h1 {
+  font-family: 'Gotham', sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: .5em;
+}
+
+h3 {
+  font-family: 'Gotham', sans-serif;
+  font-size: 1.7em;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: 'Gotham', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 2em;
+  max-width: 40em;
+  margin: auto;
+  margin-top: 2em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    color: #fff;
+    font-family: Gotham;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button {
+    background-color: #E39100;
+    opacity: 20%;
+    color: #fff;
+    /*border: 2px solid #fff; */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .9em;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.button-black {
+    background-color: black;
+    color: white;
+}
+
+.viewcoffee {
+  text-align: center;
+
+}
+
+#about{
+  color: #222;
+  text-align: center;
+  max-width: 46em;
+  margin: auto;
+}
+
+#location{
+   background:#000;
+   text-align: center;
+}
+
+#location-spot{
+  text-align: center;
+  position: relative;
+  margin-top: 6em;
+}
+
+.diamond {
+  width: 10em;
+  height: 10em;
+  background-color: #E39100;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  z-index: 1;
+  /* circle */
+  /*border-radius: 50%;*/
+}
+
+.diamond h4 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 100%;
+  text-align: center;
+}
+
+#social-media {
+  background: #1A1A1A;
+  color: #FFF;
+  text-align: left;
+  padding: 1em 2em;
+}
+
+#social-media h4 {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.social-links {
+  display: inline-block;
+}
+
+.social-link {
+  display: inline-block;
+  margin-right: 8px
+}
+
+.social-link i,
+.social-link img {
+  width: 25px;
+  color: #000;
+}
+
+.social-link a {
+  background-color: transparent;
+}
+
+.social-link a:hover {
+  background-color: transparent;
+}
+
+.block {
+  background-size:cover;
+  background-position: center 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+  float: left;
+  width: 50%;
+  height: 40em;
+  border: 1px solid white;
+  text-align: center;
+  position: relative;
+}
+
+.block-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+}
+
+#product-page {
+  margin: 4em 4em; 
+  display: inline-block; 
+  max-width: 80em;
+  background: #fdfdfd;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.beans {
+  background-color: #fff;
+  text-align: center;
+  float: left;
+  width: 24%;
+  text-align: center;
+  position: relative;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+  margin: .5%;
+  padding-bottom: 2em;
+  min-height: 26em;
+}
+
+.beans img {
+  width: 100%;
+  /*  display: inline-block;
+*/
+}
+
+.beans h3 {
+  color: #E39100;
+  text-align: center;
+  font-size: 1em;
+}
+
+.beans p {
+  font-family: 'Mulis', sans-serif;
+  color: #C5C5C5;
+  text-align: center;
+  font-size: .8em;
+  font-weight: 100;
+  text-transform: lowercase;
+  margin-top: 1em;
+}
+.beans .cta {
+    background: #e7a127;
+    color: #fff;
+    display: inline-block;
+    padding: .5em 1em;
+    border-radius: 46%;
+}
+.sunset{
+  background-image: url("../images/location-sunset-harbour.jpg");
+
+}
+
+.wynwood{
+  background-image: url("../images/location-wynwood.jpg");
+}
+
+.grove{
+  background-image: url("../images/location-coconut-grove.jpg");
+}
+
+
+.coming-soon{
+  background-image: url("../images/location-coming-soon.jpg");
+}
+
+footer{
+  background: #212121;
+  text-align: center;
+  padding: 5em 0;
+  line-height: 2.5;
+}
+
+footer li {
+  line-height: 2.5;
+}
+
+.footer-right {
+  float: right;
+  width: 50%;
+}
+
+.footer-left {
+  float: right;
+  width: 50%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.small-width{
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .block {
+      float: none; width: auto;
+    }
+    .beans{
+      width: 32.33%;
+    }
+    #product-page{
+      padding: 1em;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .beans{
+    }
+}
+@media only screen and (max-width: 850px) {
+    .beans{
+      width: 49%;
+      margin-top: 1em;
+      /* margin-left: 1em; */
+    }
+}
+
+@media only screen and (max-width: 500px) {
+  .beans{
+    width: 99%;
+    margin-top: 50px;
+  }
+
+  h1{
+    font-size: 1.5em;
+  }
+ 
+  p{
+     font-size: .9em;
+  }
+}
